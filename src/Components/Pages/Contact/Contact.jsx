@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../../Navigation/Navbar";
 import Footer from "../../Footer/Footer";
+import hld from '../../../images/Features/hbd.png'
+import dem from '../../../images/Features/dem.png'
 
 const Contact = () => {
   return (
@@ -946,56 +948,37 @@ const Contact = () => {
       {/* contact start end */}
       <div className="w-[70%] h-[2px] bg-gradient-to-r from-blue-400 to-violet-500"></div>
       {/* brands */}
-      {/* <section class="bg-white py-20 lg:py-[120px] sm:h-20 ">
+      <section class="bg-white py-20 lg:py-[120px] sm:h-20 ">
         <div class="container mx-auto sm:-mt-10">
           <div class="-mx-4 flex flex-wrap">
             <div class="w-full px-4">
               <div class="flex flex-wrap items-center justify-center">
                 <a
                   href="javascript:void(0)"
-                  class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
+                  class="mx-6 flex w-[180px] items-center justify-center py-5 2xl:w-[180px]"
                 >
                   <img
-                    src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/graygrids.svg"
+                    src={hld}
                     alt="image"
-                    class="h-10 w-full"
+                    class="h-15 w-full"
                   />
                 </a>
                 <a
                   href="javascript:void(0)"
-                  class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
+                  class="mx-6 flex w-[180px] items-center justify-center py-5 2xl:w-[180px]"
                 >
                   <img
-                    src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/lineicons.svg"
+                    src={dem}
                     alt="image"
-                    class="h-10 w-full"
+                    class="h-15 w-full"
                   />
                 </a>
-                <a
-                  href="javascript:void(0)"
-                  class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
-                >
-                  <img
-                    src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/uideck.svg"
-                    alt="image"
-                    class="h-10 w-full"
-                  />
-                </a>
-                <a
-                  href="javascript:void(0)"
-                  class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
-                >
-                  <img
-                    src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/ayroui.svg"
-                    alt="image"
-                    class="h-10 w-full"
-                  />
-                </a>
+             
               </div>
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
       {/* brands end  */}
       {/* recent news blog */}
       <div className="flex justify-end ml-[30%] w-[70%] h-[2px] bg-gradient-to-r from-blue-400 to-violet-500"></div>

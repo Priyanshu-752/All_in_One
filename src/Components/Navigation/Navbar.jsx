@@ -51,14 +51,15 @@ const Navbar = () => {
             >
               Login
             </button>
-            <button onClick={() => setOpen(!open)} className="sm:hidden block">
+            
+          </div> */}
+          <button onClick={() => setOpen(!open)} className="sm:hidden block">
               <GiHamburgerMenu size={30} className="mt-2 mr-2 text-white/70" />
             </button>
-          </div> */}
         </div>
 
         {/* desktop nav end */}
-        <div className={`${open ? null : "hidden"} h-[19rem]`}>
+        <div className={`${open ? null : "hidden"} h-[16rem]`}>
           <ul>
             <li className="text-white hover:text-blue-400 font-semibold pl-8 cursor-pointer pb-4 pt-6">
               <Link to="/">Home</Link>

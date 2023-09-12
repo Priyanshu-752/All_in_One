@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import heroImage from '../../images/heroImage.jpg'
 import Stars from '../../images/stars.png'
 import {motion} from 'framer-motion'
+import hld from '../../images/Features/hbd.png'
+import dem from '../../images/Features/dem.png'
 
 
 const Herosection = () => {
@@ -80,27 +82,22 @@ const Herosection = () => {
                   {/* <h6 class="text-body-color mb-2 flex items-center text-xs font-normal">
                     Some Of Our Clients
                     <span class="bg-body-color ml-2 inline-block h-[1px] w-8"></span>
-                  </h6>
+                  </h6> */}
                   <div class="flex items-center">
                     <div class="mr-4 w-full py-3">
                       <img
-                        src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/ayroui.svg"
+                        src={hld}
                         alt="ayroui"
                       />
                     </div>
                     <div class="mr-4 w-full py-3">
                       <img
-                        src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/graygrids.svg"
+                        src={dem}
                         alt="graygrids"
                       />
                     </div>
-                    <div class="mr-4 w-full py-3">
-                      <img
-                        src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/uideck.svg"
-                        alt="uideck"
-                      />
-                    </div>
-                  </div> */}
+                   
+                  </div>
                 </motion.div>
               </div>
             </div>

@@ -56,75 +56,8 @@ const Footer = () => {
         </div>
       </div>
       {/* footer top section end */}
-      <div className="sm:mx-auto pt-10 pb-8 sm:grid flex-row lg:grid-cols-3 w-screen gap-8 text-gray-300 bg-gray-800 ">
-        {/* <div className="lg:col-span-3 sm:mr-20  flex justify-between max-w-screen sm:ml-20 ml-[12px] mb-4 sm:mb-0 ">
-          <div className="pr-4">
-            <h6 className="font-medium text-blue-400">Solutions</h6>
-            <ul>
-              <li className="py-2 text-sm cursor-pointer font-semibold">
-                Analytics
-              </li>
-              <li className="py-2 text-sm cursor-pointer font-semibold">
-                Marketing
-              </li>
-              <li className="py-2 text-sm cursor-pointer font-semibold">
-                Ecommerce
-              </li>
-              <li className="py-2 text-sm cursor-pointer font-semibold">
-                Insights
-              </li>
-            </ul>
-          </div>
-          <div className="pr-4">
-            <h6 className="font-medium text-blue-400">Support</h6>
-            <ul>
-              <li className="py-2 text-sm cursor-pointer font-semibold">
-                Pricing
-              </li>
-              <li className="py-2 text-sm cursor-pointer font-semibold">
-                Documentation
-              </li>
-              <li className="py-2 text-sm cursor-pointer font-semibold">
-                Guides
-              </li>
-              <li className="py-2 text-sm cursor-pointer font-semibold">API</li>
-            </ul>
-          </div>
-          <div className="pr-4">
-            <h6 className="font-medium text-blue-400">Company</h6>
-            <ul>
-              <li className="py-2 text-sm cursor-pointer font-semibold">
-                About
-              </li>
-              <li className="py-2 text-sm cursor-pointer font-semibold">
-                Blog
-              </li>
-              <li className="py-2 text-sm cursor-pointer font-semibold">
-                Jobs
-              </li>
-              <li className="py-2 text-sm cursor-pointer font-semibold">
-                Careers
-              </li>
-              <li className="py-2 text-sm cursor-pointer font-semibold">
-                Press
-              </li>
-            </ul>
-          </div>
-          <div className="pr-4">
-            <h6 className="font-medium text-blue-400">Legal</h6>
-            <ul>
-              <li className="py-2 text-sm cursor-pointer font-semibold">
-                Claim
-              </li>
-              <li className="py-2 text-sm cursor-pointer font-semibold">
-                Policy
-              </li>
-              <li className="py-2 text-sm cursor-pointer font-semibold">
-                Terms
-              </li>
-            </ul>
-          </div>
-        </div> */}
+      <div className="sm:mx-auto pt-0 pb-8 sm:grid flex-row lg:grid-cols-3 w-screen gap-8 text-gray-300 bg-gray-800 ">
+
         <div className="h-[1px] bg-gray-100/20 w-[100rem] ml-[-20rem]"></div>
         <p className='pt-4 text-gray-200/40 text-sm flex justify-center text-center'>All Rights Reserved 2023 - LevelUp </p>
       </div>

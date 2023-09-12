@@ -41,7 +41,7 @@ const Card = ({ standOutBg, marginMiddle, Package, Price, image,Feature1,Feature
         </p>
       </div> */}
       <button className={`justify-center flex mx-auto w-[200px] ${buttonBg} ${hoverBgButton} ${buttonTextColor} rounded-md font-medium my-6 py-3`}>
-        Contact Suport
+        Check Out
       </button>
     </div>
   );

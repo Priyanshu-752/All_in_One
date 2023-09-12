@@ -36,7 +36,7 @@ const CardComponent = () => {
                 <div>
                   <Card
                     image={image1}
-                    Package={"Syllabuses"}
+                    Package={"Syllabus"}
                     // Price={"$350"}
                     // Feature1={"Advanced Algorithmic Solutions"}
                     // Feature2={"Trained Personnel Support"}
