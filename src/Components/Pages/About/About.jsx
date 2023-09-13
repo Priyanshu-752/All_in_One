@@ -87,7 +87,7 @@ const About = () => {
               <p className="mt-16 text-lg font-semibold sm:hidden block mb-10">
                 About Us:
               </p>
-              <p className="flex sm:hidden mt-4 mx-6">
+              <p className="flex  sm:hidden mt-4 mx-6">
                 We are member of software development cell of Graphic Era Hill University, Haldwani . 
                 Since we faced issues in searching for previous year question papers , syllabus and
                 research papers so we decided to built a platform from all the essistail details will
@@ -117,56 +117,7 @@ const About = () => {
                     <div className="absolute -mt-20 w-full flex justify-center">
                       <div className="h-32 w-32">
                         <img
-                          src="https://scontent.cdninstagram.com/v/t51.2885-19/367519233_1013029186789832_6798094471169797453_n.jpg?stp=dst-jpg_s100x100&_nc_cat=103&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=ozdParQo2XUAX8osxYm&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=00_AfDZYxPuZsq4BbiZI17yMfgWhbHjAonfFLxcr0ch7vsl7g&oe=650662EA"
-                          alt="#"
-                          className="rounded-full object-cover h-full w-full shadow-md"
-                        />
-                      </div>
-                    </div>
-                    <div className="px-6 mt-16">
-                      <div className="font-bold text-3xl text-center pb-1">
-                         Mayank Bisht
-                      </div>
-                      <p className="text-gray-800 text-sm text-center">
-                        Backend Developer
-                      </p>
-                      <p className="text-center text-gray-600 text-base pt-3 font-normal">
-                        Worked as the Backend developer for this project.
-                      </p>
-                      <div className="w-full flex justify-center pt-5 pb-5">
-                        <a href="#" className="mx-5">
-                          <div>
-                            <VscGithubAlt
-                              size={25}
-                              className="text-gray-500 hover:text-purple-500"
-                            />
-                          </div>
-                        </a>
-                        <a href="#" className="mx-5">
-                          <div>
-                            <TfiTwitter
-                              size={25}
-                              className="text-gray-500 hover:text-purple-500"
-                            />
-                          </div>
-                        </a>
-                        <a href="#" className="mx-5">
-                          <div>
-                            <RxInstagramLogo
-                              size={25}
-                              className="text-gray-500 hover:text-purple-500"
-                            />
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-                  <div className="rounded overflow-hidden shadow-md bg-white">
-                    <div className="absolute -mt-20 w-full flex justify-center">
-                      <div className="h-32 w-32">
-                        <img
+                          
                           src="https://media.licdn.com/dms/image/D4D03AQEJExF4XhOLLg/profile-displayphoto-shrink_100_100/0/1675713118756?e=1700092800&v=beta&t=bqNFBMDx6Yzp_4pLhLu8RQRGEV6bncbxqcOytWpl3f8"
                           alt="#"
                           className="rounded-full object-cover h-full w-full shadow-md"
@@ -175,7 +126,7 @@ const About = () => {
                     </div>
                     <div className="px-6 mt-16">
                       <div className="font-bold text-3xl text-center pb-1">
-                      Priyanshu Negi 
+                       Priyanshu Negi 
                       </div>
                       <p className="text-gray-800 text-sm text-center">
                       Frontend Developer
@@ -201,6 +152,56 @@ const About = () => {
                           </div>
                         </a>
                         <a href="https://www.instagram.com/_priyansh_u123/" className="mx-5">
+                          <div>
+                            <RxInstagramLogo
+                              size={25}
+                              className="text-gray-500 hover:text-purple-500"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                  <div className="rounded overflow-hidden shadow-md bg-white">
+                    <div className="absolute -mt-20 w-full flex justify-center">
+                      <div className="h-32 w-32">
+                        <img
+                         src="https://scontent.cdninstagram.com/v/t51.2885-19/367519233_1013029186789832_6798094471169797453_n.jpg?stp=dst-jpg_s100x100&_nc_cat=103&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=ozdParQo2XUAX8osxYm&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=00_AfDZYxPuZsq4BbiZI17yMfgWhbHjAonfFLxcr0ch7vsl7g&oe=650662EA"
+                          alt="#"
+                          className="rounded-full object-cover h-full w-full shadow-md"
+                        />
+                      </div>
+                    </div>
+                    <div className="px-6 mt-16">
+                      <div className="font-bold text-3xl text-center pb-1">
+                      Mayank Bisth 
+                      </div>
+                      <p className="text-gray-800 text-sm text-center">
+                      Backend Developer
+                      </p>
+                      <p className="text-center text-gray-600 text-base pt-3 font-normal">
+                      Worked as the Backend developer for this project.
+                      </p>
+                      <div className="w-full flex justify-center pt-5 pb-5">
+                        <a href="#" className="mx-5">
+                          <div>
+                            <VscGithubAlt
+                              size={25}
+                              className="text-gray-500 hover:text-purple-500"
+                            />
+                          </div>
+                        </a>
+                        <a href="#" className="mx-5">
+                          <div>
+                            <TfiTwitter
+                              size={25}
+                              className="text-gray-500 hover:text-purple-500"
+                            />
+                          </div>
+                        </a>
+                        <a href="#" className="mx-5">
                           <div>
                             <RxInstagramLogo
                               size={25}
@@ -262,162 +263,6 @@ const About = () => {
                     </div>
                   </div>
                 </div>
-                {/* <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-                  <div className="rounded overflow-hidden shadow-md bg-white">
-                    <div className="absolute -mt-20 w-full flex justify-center">
-                      <div className="h-32 w-32">
-                        <img
-                          src="https://cdn.tuk.dev/assets/boy-smiling_23-2148155640.jpg"
-                          alt="alt"
-                          className="rounded-full object-cover h-full w-full shadow-md"
-                        />
-                      </div>
-                    </div>
-                    <div className="px-6 mt-16">
-                      <div className="font-bold text-3xl text-center pb-1">
-                        Dean Jones
-                      </div>
-                      <p className="text-gray-800 text-sm text-center">
-                        Principal Software Engineer
-                      </p>
-                      <p className="text-center text-gray-600 text-base pt-3 font-normal">
-                        An avid open-source developer who loves to be creative
-                        and inventive. I have 20 years of experience in the
-                        field.
-                      </p>
-                      <div className="w-full flex justify-center pt-5 pb-5">
-                        <a href="#" className="mx-5">
-                          <div>
-                            <VscGithubAlt
-                              size={25}
-                              className="text-gray-500 hover:text-purple-500"
-                            />
-                          </div>
-                        </a>
-                        <a href="#" className="mx-5">
-                          <div>
-                            <TfiTwitter
-                              size={25}
-                              className="text-gray-500 hover:text-purple-500"
-                            />
-                          </div>
-                        </a>
-                        <a href="#" className="mx-5">
-                          <div>
-                            <RxInstagramLogo
-                              size={25}
-                              className="text-gray-500 hover:text-purple-500"
-                            />
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
-                {/* <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-                  <div className="rounded overflow-hidden shadow-md bg-white">
-                    <div className="absolute -mt-20 w-full flex justify-center">
-                      <div className="h-32 w-32">
-                        <img
-                          src="https://cdn.tuk.dev/assets/blond-man-happy-expression_1194-2873.jpg"
-                          alt="alt"
-                          className="rounded-full object-cover h-full w-full shadow-md"
-                        />
-                      </div>
-                    </div>
-                    <div className="px-6 mt-16">
-                      <div className="font-bold text-3xl text-center pb-1">
-                        Rachel Adams
-                      </div>
-                      <p className="text-gray-800 text-sm text-center">
-                        Product Design Head
-                      </p>
-                      <p className="text-center text-gray-600 text-base pt-3 font-normal">
-                        Product designer with interests in immersive computing
-                        and XR, political ventures, and emerging technologies.
-                        Able to take ideas and give them a life.
-                      </p>
-                      <div className="w-full flex justify-center pt-5 pb-5">
-                        <a href="#" className="mx-5">
-                          <div>
-                            <VscGithubAlt
-                              size={25}
-                              className="text-gray-500 hover:text-purple-500"
-                            />
-                          </div>
-                        </a>
-                        <a href="#" className="mx-5">
-                          <div>
-                            <TfiTwitter
-                              size={25}
-                              className="text-gray-500 hover:text-purple-500"
-                            />
-                          </div>
-                        </a>
-                        <a href="#" className="mx-5">
-                          <div>
-                            <RxInstagramLogo
-                              size={25}
-                              className="text-gray-500 hover:text-purple-500"
-                            />
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
-                {/* <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-                  <div className="rounded overflow-hidden shadow-md bg-white">
-                    <div className="absolute -mt-20 w-full flex justify-center">
-                      <div className="h-32 w-32">
-                        <img
-                          src="https://cdn.tuk.dev/assets/photo-1570211776045-af3a51026f4a.jfif"
-                          alt="alt"
-                          className="rounded-full object-cover h-full w-full shadow-md"
-                        />
-                      </div>
-                    </div>
-                    <div className="px-6 mt-16">
-                      <div className="font-bold text-3xl text-center pb-1">
-                        Charles Keith
-                      </div>
-                      <p className="text-gray-800 text-sm text-center">
-                        UX Designer
-                      </p>
-                      <p className="text-center text-gray-600 text-base pt-3 font-normal">
-                        A UX designer is the voice of the customer. Our job is
-                        to look beyond the business goals. We don't just
-                        experience user interface but also questions it.
-                      </p>
-                      <div className="w-full flex justify-center pt-5 pb-5">
-                        <a href="#" className="mx-5">
-                          <div>
-                            <VscGithubAlt
-                              size={25}
-                              className="text-gray-500 hover:text-purple-500"
-                            />
-                          </div>
-                        </a>
-                        <a href="#" className="mx-5">
-                          <div>
-                            <TfiTwitter
-                              size={25}
-                              className="text-gray-500 hover:text-purple-500"
-                            />
-                          </div>
-                        </a>
-                        <a href="#" className="mx-5">
-                          <div>
-                            <RxInstagramLogo
-                              size={25}
-                              className="text-gray-500 hover:text-purple-500"
-                            />
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
               </div>
             </div>
           </div>
