@@ -70,8 +70,7 @@ const Services = () => {
                       >
                         Always have a clear overview of what's going on with
                         your investments and how well everything is performing.
-                        We Deliver a detailed performance report on Everything
-                        Important!
+                        
                       </p>
                     </div>
                   </div>
@@ -99,9 +98,7 @@ const Services = () => {
                       >
                         We know how important hitting your monthly marks is,
                         this determines then the flow of work and the overall
-                        performance of the company. This is why we use Advanced
-                        algorithms and state of the art Technologies to help you
-                        achieve this!
+                        performance of the company.
                       </p>
                     </div>
                   </div>
@@ -129,10 +126,7 @@ const Services = () => {
                       >
                         Never miss out on a rising trend that is hot in your
                         industry and that is performing well in businesses and
-                        companies similar to yours. Sometimes this gets hard
-                        with the evermore-increasing workload and thats why wee
-                        use our Trained Professionals to help you always stay on
-                        top of your game!
+                        companies similar to yours.
                       </p>
                     </div>
                   </div>
@@ -159,9 +153,7 @@ const Services = () => {
                         className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                       >
                         Our solutions are always personalized and tailored
-                        depending on your needs. This is why all of our clients
-                        trust us so much and 70% stay with us for as long as 5+
-                        Years.
+                        depending on your needs.
                       </p>
                     </div>
                   </div>
