@@ -21,10 +21,10 @@ const Review = () => {
               <div className="grid items-center gap-4 xl:grid-cols-5">
                 <div className="max-w-2xl mx-auto rounded shadow-md bg-blue-100/10 p-6 my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
                   <h2 className="text-4xl font-bold text-black">
-                    What our costumers have to say
+                    What our Users have to say
                   </h2>
                   <p className="text-black">
-                    Here are some reviews of our costumers and their excperience
+                  Here are some reviews of our students and their excperience
                     with our services and that wee provide!
                   </p>
                 </div>
@@ -33,19 +33,18 @@ const Review = () => {
                     <div className="grid content-center gap-4">
                       <div className="p-6 rounded shadow-md bg-blue-200/30">
                         <p>
-                          I recently used the services of this agency, and I am
-                          thrilled with the results. The team went above and
-                          beyond to ensure that my needs were met. 
+                        I recently used the services of this website, and I am
+                          thrilled with the results.
                         </p>
                         <div className="flex items-center mt-4 space-x-4">
                           <img
-                            src="https://source.unsplash.com/50x50/?portrait?1"
-                            alt=""
+                            src="https://media.licdn.com/dms/image/D4D03AQG0Lc8nRPJ97w/profile-displayphoto-shrink_100_100/0/1693376363377?e=1700092800&v=beta&t=KGXA1RBnk2Y7rU5VEFBgIo6dMsqP52tcFIb1z2Od2nI"
+                              alt=""
                             className="w-12 h-12 bg-center bg-cover rounded-full "
                           />
                           <div>
-                            <p className="text-md font-semibold">Sam Smith</p>
-                            <p className="text-sm text-gray-400">Logitech</p>
+                            <p className="text-md font-semibold">Mayank Bisht</p>
+                            <p className="text-sm text-gray-400">Gehu, Haldwani</p>
                           </div>
                           <div className="flex">
                             <MdVerified
@@ -69,10 +68,10 @@ const Review = () => {
                           />
                           <div>
                             <p className="text-md font-semibold">
-                              Sophia Davis
+                              Soniya Khan
                             </p>
                             <p className="text-sm dark:text-gray-400">
-                              Microsoft
+                              Gehu, Bhimtal
                             </p>
                           </div>
                           <div className="flex">
@@ -87,21 +86,21 @@ const Review = () => {
                     <div className="grid content-center gap-4">
                       <div className="p-6 rounded shadow-md bg-blue-200/60">
                         <p>
-                          I have had the pleasure of working with this agency,
+                        I have had the pleasure of working with this awebsite,
                           and I can confidently say that they are a reliable and
-                          trustworthy partner.
+                          trustworthy partner. 
                         </p>
                         <div className="flex items-center mt-4 space-x-4">
                           <img
-                            src="https://source.unsplash.com/50x50/?portrait?3"
-                            alt=""
+                            src="https://media.licdn.com/dms/image/D4D03AQEJExF4XhOLLg/profile-displayphoto-shrink_100_100/0/1675713118756?e=1700092800&v=beta&t=bqNFBMDx6Yzp_4pLhLu8RQRGEV6bncbxqcOytWpl3f8"
+                              alt=""
                             className="w-12 h-12 bg-center bg-cover rounded-full "
                           />
                           <div>
                             <p className="text-md font-semibold">
-                              Ethan Williams
+                              Priyanshu Negi
                             </p>
-                            <p className="text-sm dark:text-gray-400">Dell</p>
+                            <p className="text-sm dark:text-gray-400">Gehu, Haldwani</p>
                           </div>
                           <div className="flex">
                             <MdVerified
@@ -124,9 +123,9 @@ const Review = () => {
                           />
                           <div>
                             <p className="text-md font-semibold">
-                              Olivia Johnson
+                              Ajay Sharama
                             </p>
-                            <p className="text-sm dark:text-gray-400">Razer</p>
+                            <p className="text-sm dark:text-gray-400">Gehu, Deemed</p>
                           </div>
                           <div className="flex">
                             <MdVerified
@@ -158,7 +157,7 @@ const Review = () => {
                   className="max-w-2xl mx-auto rounded shadow-md bg-blue-100/10 p-6 my-8 space-y-4 text-center xl:col-span-2 xl:text-left"
                 >
                   <h2 className="text-4xl font-bold text-black">
-                    What our students have to say
+                    What our users have to say
                   </h2>
                   <p className="text-black">
                     Here are some reviews of our students and their excperience
@@ -180,22 +179,22 @@ const Review = () => {
                         className="p-6 rounded shadow-md bg-blue-200/30"
                       >
                         <p>
-                          I recently used the services of this agency, and I am
+                          I recently used the services of this website, and I am
                           thrilled with the results. 
                         </p>
                         <div className="flex justify-between items-center mt-4 space-x-4">
                           <div className="flex">
                             <img
-                              src="https://source.unsplash.com/50x50/?portrait?1"
+                              src="https://media.licdn.com/dms/image/D4D03AQG0Lc8nRPJ97w/profile-displayphoto-shrink_100_100/0/1693376363377?e=1700092800&v=beta&t=KGXA1RBnk2Y7rU5VEFBgIo6dMsqP52tcFIb1z2Od2nI"
                               alt=""
                               className="w-12 h-12 bg-center bg-cover rounded-full "
                             />
                             <div className="flex-col ml-4">
                               <p className="text-lg font-semibold block">
-                                Sam Smith
+                                Mayank Sharama
                               </p>
                               <p className="text-sm text-gray-400 block">
-                                Asus
+                                Gehu, Haldwani
                               </p>
                             </div>
                           </div>
@@ -220,7 +219,7 @@ const Review = () => {
                         className="p-6 rounded shadow-md bg-blue-200/60"
                       >
                         <p>
-                          I cannot say enough good things about this agency. The
+                          I cannot say enough good things about this website. The
                           level of workmanship they displayed was truly
                           impressive. 
                         </p>
@@ -233,10 +232,10 @@ const Review = () => {
                             />
                             <div className="flex-col sm:ml-2 ">
                               <p className="text-lg font-semibold block">
-                                Benjamin Mitchell
+                                Soniya Khan
                               </p>
                               <p className="text-sm text-gray-400 block">
-                                Razer
+                                Gehu, Deemed
                               </p>
                             </div>
                           </div>
@@ -262,23 +261,23 @@ const Review = () => {
                         className="p-6 rounded shadow-md bg-blue-200/60"
                       >
                         <p>
-                          I have had the pleasure of working with this agency,
+                          I have had the pleasure of working with this awebsite,
                           and I can confidently say that they are a reliable and
                           trustworthy partner. 
                         </p>
                         <div className="flex justify-between items-center mt-4 space-x-4">
                           <div className="flex">
                             <img
-                              src="https://source.unsplash.com/50x50/?portrait?1"
+                              src="https://media.licdn.com/dms/image/D4D03AQEJExF4XhOLLg/profile-displayphoto-shrink_100_100/0/1675713118756?e=1700092800&v=beta&t=bqNFBMDx6Yzp_4pLhLu8RQRGEV6bncbxqcOytWpl3f8"
                               alt=""
                               className="w-12 h-12 bg-center bg-cover rounded-full "
                             />
                             <div className="flex-col ml-4">
                               <p className="text-lg font-semibold block">
-                                Olivia Johnson
+                                Priyanshu Negi
                               </p>
                               <p className="text-sm text-gray-400 block">
-                                Microsoft
+                                Gehu, Haldwani
                               </p>
                             </div>
                           </div>
@@ -302,23 +301,23 @@ const Review = () => {
                         className="p-6 rounded shadow-md bg-blue-200/30"
                       >
                         <p>
-                          I recently engaged this agency for their services, and
+                          I recently engaged this website for their services, and
                           I am extremely pleased with the outcome. Their
                           attention to detail is second to none. 
                         </p>
                         <div className="flex justify-between items-center mt-4 space-x-4">
                           <div className="flex">
                             <img
-                              src="https://source.unsplash.com/50x50/?portrait?1"
+                              src="https://scontent.fdel25-2.fna.fbcdn.net/v/t1.15752-9/334975397_869201040812989_4511464588052660106_n.jpg?stp=dst-jpg_p100x100&_nc_cat=105&ccb=1-7&_nc_sid=4de414&_nc_ohc=QwZtDNBSrg0AX-PUEe5&_nc_ht=scontent.fdel25-2.fna&oh=03_AdSOoVsQ_4iiMYx8O0wc50bjTsUplSKCMOobMmEkMz7nWQ&oe=6529558B"
                               alt=""
                               className="w-12 h-12 bg-center bg-cover rounded-full "
                             />
                             <div className="flex-col ml-4">
                               <p className="text-lg font-semibold block">
-                                Sophia Davis
+                                Ajay Sharama
                               </p>
                               <p className="text-sm text-gray-400 block">
-                                Dell
+                                Gehu, Bhimtal
                               </p>
                             </div>
                           </div>

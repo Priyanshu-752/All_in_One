@@ -25,8 +25,7 @@ const CardComponent = () => {
           </h2>
         </div>
         <p className="flex text-xl justify-center sm:mb-24 mb-16 text-center mt-6 sm:mt-0 ">
-          Find your Package that fits your needs, weather your a new company or
-          a Enterprise wee got you covered!
+          Find your Package that fits your needs, weather you r looking for Question or Research Papers wee got you covered!
         </p>
         {/* cards */}
         <>

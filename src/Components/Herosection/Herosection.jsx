@@ -30,7 +30,7 @@ const Herosection = () => {
                     Here you can
                     <br />
                     <span className="sm:text-8xl text-6xl">
-                      Level Up Your Carrer
+                      Level Up Your Growth
                     </span>
                   </h1>
                   <p class="text-body-color text-sm mb-8 max-w-[480px] sm:text-base">
@@ -52,7 +52,7 @@ const Herosection = () => {
                   <ul class="flex flex-wrap items-center">
                     <li>
                       <Link
-                        to="#"
+                        to="services"
                         class="bg-blue-400 inline-flex items-center justify-center rounded-lg py-4 px-6 text-center text-base font-normal text-white hover:bg-blue-500 sm:px-10 lg:px-8 xl:px-10"
                       >
                         Get Started
@@ -60,7 +60,7 @@ const Herosection = () => {
                     </li>
                     <li>
                       <Link
-                        to="#"
+                        to="about"
                         class="bg-blue-200/80 ml-6 inline-flex items-center justify-center rounded-lg py-4 px-6 text-center text-black font-normal hover:bg-blue-200 sm:px-10 lg:px-8 xl:px-10"
                       >
                         Take a look

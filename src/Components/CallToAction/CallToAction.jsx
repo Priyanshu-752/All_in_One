@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import {motion, useInView, useAnimation} from 'framer-motion';
+import { Link } from 'react-router-dom'
 
 const CallToAction = () => {
     const {innerWidth: Width} = window;
@@ -32,7 +33,7 @@ const CallToAction = () => {
                   class="w-full px-4 lg:w-1/2"
                 >
                   <span class="mb-2 text-base font-semibold text-white">
-                    Find the perfect team to realise your business Gols!
+                    Find the perfect solutions for your problems!
                   </span>
                   <h2 class="mb-6 text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
                     Get started Today and let us <br class="xs:block hidden" />
@@ -73,12 +74,14 @@ const CallToAction = () => {
                       transition={{ duration: 0.4, delay: 0.5 }}
                     >
                       {" "}
+                      <Link to="services">
+
                       <button
-                        href="#"
                         class="my-1 inline-block rounded bg-[#1c9b7b] py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9"
                       >
                         Get Started
                       </button>
+                      </Link>
                     </motion.div>
                   </div>
                 </div>

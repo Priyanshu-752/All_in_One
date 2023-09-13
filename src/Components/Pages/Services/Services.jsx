@@ -6,6 +6,7 @@ import i2 from "../../../images/Services/2.svg";
 import i3 from "../../../images/Services/3.svg";
 import i4 from "../../../images/Services/4.svg";
 import Features from "../../../Features/Features";
+import CardComponent from "../../Price/CardComponent";
 
 const Services = () => {
   return (
@@ -37,8 +38,7 @@ const Services = () => {
                     tabIndex={0}
                     className=" text-3xl sm:text-5xl font-extrabold text-center leading-10 text-gray-800 sm:w-[70%] w-[95%] pt-4"
                   >
-                    Level UP your business & Maximise your Company's Income &
-                    Productivity
+                    Level UP your Study Game Plan and Save your Time.
                   </h1>
                 </div>
                 <div
@@ -168,6 +168,7 @@ const Services = () => {
                 </div>
               </div>
             </section>
+            <CardComponent/>
           </dh-component>
           {/* Code block ends */}
         </div>
@@ -176,9 +177,9 @@ const Services = () => {
         <Features />
         {/* features component ends */}
         {/* stats component starts */}
-        <div className="xl:px-20 px-6 py-20 xl:mx-auto xl:container">
+        {/* <div className="xl:px-20 px-6 py-20 xl:mx-auto xl:container">
           <h1 className="xl:text-5xl md:text-4xl text-2xl font-semibold leading-tight text-center text-gray-800 sm:mb-0 mb-12">
-            More Than 10 Years We Provide Services{" "}
+            More Than 10 Years Our College Connected to Us{" "}
             <br className="md:block hidden" />
             All over the World
           </h1>
@@ -212,7 +213,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* stats component ends */}
         <div className="w-[70%] h-[2px] bg-gradient-to-r from-blue-400 to-violet-500"></div>
       </div>

@@ -50,23 +50,7 @@ const Features = () => {
                       technologies, and receiving personalized support.
                     </p>
                     <div className="mt-12 space-y-12">
-                      <div className="flex">
-                        <div className="flex-shrink-0">
-                          <div className="flex items-center justify-center w-12 h-12 rounded-md dark:text-gray-900">
-                            <img src={logo1} alt="logo1" />
-                          </div>
-                        </div>
-                        <div className="ml-4">
-                          <h4 className="text-lg font-medium leading-6 ">
-                            Advanced Algorithmic Solutions
-                          </h4>
-                          <p className="mt-2 ">
-                            Our advanced algorithms optimize your operations,
-                            boosting efficiency and profitability. Make
-                            data-driven decisions with actionable insights.
-                          </p>
-                        </div>
-                      </div>
+                      
                       <div className="flex">
                         <div className="flex-shrink-0">
                           <div className="flex items-center justify-center w-12 h-12 rounded-md  dark:text-gray-900">
@@ -78,9 +62,7 @@ const Features = () => {
                             Innovative Technology Integration
                           </h4>
                           <p className="mt-2 ">
-                            Seamlessly integrate cutting-edge technologies like
-                            AI, IoT, and cloud computing. Automate tasks,
-                            improve communication, and unlock growth potential.
+                            Automate tasks,improve communication, and unlock growth potential.
                           </p>
                         </div>
                       </div>
@@ -96,8 +78,7 @@ const Features = () => {
                           </h4>
                           <p className="mt-2 ">
                             Our trained experts ensure smooth implementation and
-                            ongoing guidance. Leverage our software effectively
-                            with personalized assistance.
+                            ongoing guidance. 
                           </p>
                         </div>
                       </div>
@@ -121,28 +102,10 @@ const Features = () => {
                       </h3>
                       <p className="mt-3 text-lg ">
                         Data-driven decisions. Personalized solutions.
-                        Continuous innovation. Propel your business forward with
-                        our powerful analytics, tailored to your needs, and
-                        future-proofed by our commitment to innovation.
+                        Continuous innovation. 
                       </p>
                       <div className="mt-12 space-y-12">
-                        <div className="flex">
-                          <div className="flex-shrink-0">
-                            <div className="flex items-center justify-center w-12 h-12 rounded-md  dark:text-gray-900">
-                              <img src={logo4} alt="logo4" />
-                            </div>
-                          </div>
-                          <div className="ml-4">
-                            <h4 className="text-lg font-medium leading-6 ">
-                              Powerful Analytics Capabilities
-                            </h4>
-                            <p className="mt-2 ">
-                              Extract valuable insights from your data with
-                              comprehensive visualizations. Monitor KPIs, track
-                              trends, and identify areas for improvement.
-                            </p>
-                          </div>
-                        </div>
+                        
                         <div className="flex">
                           <div className="flex-shrink-0">
                             <div className="flex items-center justify-center w-12 h-12 rounded-md  dark:text-gray-900">
@@ -154,9 +117,8 @@ const Features = () => {
                               Personalized Solutions
                             </h4>
                             <p className="mt-2 ">
-                              Tailored software solutions to address your unique
-                              needs. Achieve sustainable growth by aligning with
-                              your business objectives.
+                              Optamized software solutions to address your unique
+                              needs. 
                             </p>
                           </div>
                         </div>
@@ -172,8 +134,7 @@ const Features = () => {
                             </h4>
                             <p className="mt-2 ">
                               Stay ahead with the latest features and
-                              functionalities. Adapt to market dynamics and gain
-                              a competitive edge through continuous innovation.
+                              functionalities. 
                             </p>
                           </div>
                         </div>
@@ -210,38 +171,11 @@ const Features = () => {
                       Inovation Begins Here
                     </h3>
                     <p className="mt-3 text-lg ">
-                      Unleash business growth with advanced technology
-                      solutions, optimizing operations, integrating innovative
-                      technologies, and receiving personalized support.
+                      Unleash your growth with advanced technology
+                      solutions, optimizing operations,and receiving personalized support.
                     </p>
                     <div className="mt-12 space-y-12">
-                      <motion.div
-                        ref={ref}
-                        variants={{
-                          hidden: { opacity: 0, y: 75 },
-                          visible: { opacity: 1, y: 0 },
-                        }}
-                        initial="hidden"
-                        animate={mainControlls}
-                        transition={{ duration: 0.5, delay: 0.15 }}
-                        className="flex"
-                      >
-                        <div className="flex-shrink-0">
-                          <div className="flex items-center justify-center w-12 h-12 rounded-md dark:text-gray-900">
-                            <img src={logo1} alt="logo1" />
-                          </div>
-                        </div>
-                        <div className="ml-4">
-                          <h4 className="text-lg font-medium leading-6 ">
-                            Advanced Algorithmic Solutions
-                          </h4>
-                          <p className="mt-2 ">
-                            Our advanced algorithms optimize your operations,
-                            boosting efficiency and profitability. Make
-                            data-driven decisions with actionable insights.
-                          </p>
-                        </div>
-                      </motion.div>
+                     
                       <motion.div
                         ref={ref}
                         variants={{
@@ -263,8 +197,7 @@ const Features = () => {
                             Innovative Technology Integration
                           </h4>
                           <p className="mt-2 ">
-                            Seamlessly integrate cutting-edge technologies like
-                            AI, IoT, and cloud computing. Automate tasks,
+                             Automate tasks,
                             improve communication, and unlock growth potential.
                           </p>
                         </div>
@@ -291,8 +224,7 @@ const Features = () => {
                           </h4>
                           <p className="mt-2 ">
                             Our trained experts ensure smooth implementation and
-                            ongoing guidance. Leverage our software effectively
-                            with personalized assistance.
+                            ongoing guidance.
                           </p>
                         </div>
                       </motion.div>
@@ -326,38 +258,10 @@ const Features = () => {
                       </h3>
                       <p className="mt-3 text-lg ">
                         Data-driven decisions. Personalized solutions.
-                        Continuous innovation. Propel your business forward with
-                        our powerful analytics, tailored to your needs, and
-                        future-proofed by our commitment to innovation.
+                        Continuous innovation. 
                       </p>
                       <div className="mt-12 space-y-12">
-                        <motion.div
-                          ref={ref}
-                          variants={{
-                            hidden: { opacity: 0, y: -75 },
-                            visible: { opacity: 1, y: 0 },
-                          }}
-                          initial="hidden"
-                          animate={mainControlls}
-                          transition={{ duration: 0.5, delay: 0.15 }}
-                          className="flex"
-                        >
-                          <div className="flex-shrink-0">
-                            <div className="flex items-center justify-center w-12 h-12 rounded-md  dark:text-gray-900">
-                              <img src={logo4} alt="logo4" />
-                            </div>
-                          </div>
-                          <div className="ml-4">
-                            <h4 className="text-lg font-medium leading-6 ">
-                              Powerful Analytics Capabilities
-                            </h4>
-                            <p className="mt-2 ">
-                              Extract valuable insights from your data with
-                              comprehensive visualizations. Monitor KPIs, track
-                              trends, and identify areas for improvement.
-                            </p>
-                          </div>
-                        </motion.div>
+              
                         <motion.div
                           ref={ref}
                           variants={{
@@ -379,9 +283,8 @@ const Features = () => {
                               Personalized Solutions
                             </h4>
                             <p className="mt-2 ">
-                              Tailored software solutions to address your unique
-                              needs. Achieve sustainable growth by aligning with
-                              your business objectives.
+                              Optamized software solutions to address your unique
+                              needs. 
                             </p>
                           </div>
                         </motion.div>
@@ -407,8 +310,7 @@ const Features = () => {
                             </h4>
                             <p className="mt-2 ">
                               Stay ahead with the latest features and
-                              functionalities. Adapt to market dynamics and gain
-                              a competitive edge through continuous innovation.
+                              functionalities. 
                             </p>
                           </div>
                         </motion.div>
