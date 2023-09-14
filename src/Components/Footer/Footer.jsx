@@ -77,7 +77,7 @@ const Footer = () => {
                       transition={{ duration: 0.4, delay: 0.5 }}
                     >
                       {" "}
-                      <Link to="services">
+                      <Link to="contact">
 
                       <button
                         class="my-1 inline-block rounded bg-[#41a5d7] py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9"

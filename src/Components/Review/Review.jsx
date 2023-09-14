@@ -92,7 +92,7 @@ const Review = () => {
                         </p>
                         <div className="flex items-center mt-4 space-x-4">
                           <img
-                            src="https://media.licdn.com/dms/image/D4D03AQEJExF4XhOLLg/profile-displayphoto-shrink_100_100/0/1675713118756?e=1700092800&v=beta&t=bqNFBMDx6Yzp_4pLhLu8RQRGEV6bncbxqcOytWpl3f8"
+                            src="https://www.instagram.com/p/CofXooHv9rdXBy1RA_MmFFLjn5IBZ3_Fb2MrgQ0/"
                               alt=""
                             className="w-12 h-12 bg-center bg-cover rounded-full "
                           />
@@ -314,7 +314,7 @@ const Review = () => {
                             />
                             <div className="flex-col ml-4">
                               <p className="text-lg font-semibold block">
-                                Ajay Sharama
+                                Kunal Pawar
                               </p>
                               <p className="text-sm text-gray-400 block">
                                 Gehu, Bhimtal
