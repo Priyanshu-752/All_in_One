@@ -92,7 +92,7 @@ const Review = () => {
                         </p>
                         <div className="flex items-center mt-4 space-x-4">
                           <img
-                            src="https://www.instagram.com/p/CofXooHv9rdXBy1RA_MmFFLjn5IBZ3_Fb2MrgQ0/"
+                            src="https://media.licdn.com/dms/image/D4D03AQEJExF4XhOLLg/profile-displayphoto-shrink_100_100/0/1675713118756?e=1700092800&v=beta&t=bqNFBMDx6Yzp_4pLhLu8RQRGEV6bncbxqcOytWpl3f8"
                               alt=""
                             className="w-12 h-12 bg-center bg-cover rounded-full "
                           />

@@ -3,7 +3,6 @@ import Navbar from "../../Navigation/Navbar";
 import Footer from "../../Footer/Footer";
 import { useAnimation, useInView, motion } from "framer-motion";
 import TeamImage from '../../../images/Team/team1.png'
-import TeamMember1 from "../../../images/Team/teamMember1.jpeg";
 import {VscGithubAlt} from 'react-icons/vsc'
 import {TfiTwitter} from 'react-icons/tfi'
 import {RxInstagramLogo} from 'react-icons/rx'
@@ -36,7 +35,7 @@ const About = () => {
               className="flex justify-center text-center"
             >
               <h1 className="flex justify-center text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-emerald-500 font-extrabold text-[3rem]">
-                Who are wee and whay are wee so good ?
+                Who are wee and why are wee so good ?
               </h1>
             </motion.div>
             <div className="sm:flex sm:justify-between sm:mr-[10%] sm:mt-20 mt-10 ml-10">
