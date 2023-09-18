@@ -35,7 +35,7 @@ const Features = () => {
                     Empowering Study Methods
                   </h2>
                   <p className="max-w-3xl mx-auto mt-4 text-xl text-center ">
-                    Growth Through Advanced Technology Solutions, Analytics and
+                    Growth Through Advanced Solutions, Analytics and
                     Professionaly Trained Personnel
                   </p>
                 </div>
@@ -45,9 +45,8 @@ const Features = () => {
                       Inovation Begins Here
                     </h3>
                     <p className="mt-3 text-lg ">
-                      Unleash business growth with advanced technology
-                      solutions, optimizing operations, integrating innovative
-                      technologies, and receiving personalized support.
+                      Unleash your growth with advanced
+                      solutions, optimizing operations, and receiving personalized support.
                     </p>
                     <div className="mt-12 space-y-12">
                       
@@ -161,7 +160,7 @@ const Features = () => {
                     Empowering Study Methods
                   </h2>
                   <p className="max-w-3xl mx-auto mt-4 text-xl text-center ">
-                    Growth Through Advanced Technology Solutions, Analytics and
+                    Growth Through Advanced Solutions, Analytics and
                     Professionaly Trained Personnel
                   </p>
                 </div>
@@ -171,7 +170,7 @@ const Features = () => {
                       Inovation Begins Here
                     </h3>
                     <p className="mt-3 text-lg ">
-                      Unleash your growth with advanced technology
+                      Unleash your growth with advanced
                       solutions, optimizing operations,and receiving personalized support.
                     </p>
                     <div className="mt-12 space-y-12">
