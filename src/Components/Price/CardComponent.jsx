@@ -4,6 +4,8 @@ import image1 from "../../images/Price/1.png";
 import image2 from "../../images/Price/2.png";
 import image3 from "../../images/Price/3.png";
 import { useAnimation, useInView, motion } from "framer-motion";
+import Paper from "../Pages/Quespaper/Paper";
+import About from "../Pages/About/About"
 
 const CardComponent = () => {
   const { innerWidth: Width } = window;
@@ -34,6 +36,7 @@ const CardComponent = () => {
               <div className="max-w-[1240px] mx-auto grid sm:grid-cols-3 gap-8">
                 <div>
                   <Card
+                  path="../Pages/About/About.jsx"
                     image={image1}
                     Package={"Syllabus"}
                     buttonBg={"bg-gray-300"}
@@ -42,6 +45,7 @@ const CardComponent = () => {
                 </div>
                 <div>
                   <Card
+                  path="../Pages/Paper.jsx"
                     image={image2}
                     Package={"Previous Year Papers"}
                     buttonBg={"bg-green-400"}
