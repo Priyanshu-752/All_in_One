@@ -16,33 +16,25 @@ export default function Paper() {
     {
       id: 2,
       title: "Bca",
-
+      link: "https://drive.google.com/file/d/1tYBgET6hjZ-A06iHJ3m6nZDjmg0WTyTi/view?usp=drivesdk",
     },
     {
       id: 3,
       title: "BBA",
-
+      link: "https://drive.google.com/file/d/1w14PEg_t2KSXJBRjJbZdZUbOpniKoWa_/view?usp=drivesdk",
     },
     {
       id: 4,
       title: "B.Com",
-
+      link: "https://drive.google.com/file/d/1ryV6Ph29iJZZJBuufJtweeaUiII6IdKZ/view?usp=drivesdk",
     },
+
     {
       id: 5,
-      title: "B.Frma",
-
-    },
-    {
-      id: 6,
       title: "BJMC",
-
+      link: "https://drive.google.com/file/d/12KQCJudELbyio2PYqbILBxYQdpif8nU5/view?usp=drivesdk",
     },
-    {
-      id: 7,
-      title: "HM",
 
-    },
     ],
     Second_Year: [
       {
@@ -60,12 +52,28 @@ export default function Paper() {
       {
         id: 1,
         title: 'Btech',
-
+        link: "https://drive.google.com/file/d/14K3h9kN3cJczIbE2yucgNgDV-_zO2rc4/view?usp=drivesdk",
       },
       {
         id: 2,
         title: "Bca",
-
+        link: "https://drive.google.com/file/d/1tYBgET6hjZ-A06iHJ3m6nZDjmg0WTyTi/view?usp=drivesdk",
+      },
+      {
+        id: 3,
+        title: "BBA",
+        link: "https://drive.google.com/file/d/1w14PEg_t2KSXJBRjJbZdZUbOpniKoWa_/view?usp=drivesdk",
+      },
+      {
+        id: 4,
+        title: "B.Com",
+        link: "https://drive.google.com/file/d/1ryV6Ph29iJZZJBuufJtweeaUiII6IdKZ/view?usp=drivesdk",
+      },
+  
+      {
+        id: 5,
+        title: "BJMC",
+        link: "https://drive.google.com/file/d/12KQCJudELbyio2PYqbILBxYQdpif8nU5/view?usp=drivesdk",
       },
     ],
     Fourth_Year: [
