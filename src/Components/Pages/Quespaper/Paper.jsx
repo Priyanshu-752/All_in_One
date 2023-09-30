@@ -11,7 +11,7 @@ export default function Paper() {
     {
       id: 1,
       title: 'Btech',
-      link: "https://drive.google.com/file/d/1dKrGMRpfTn0WJzNBxEfg_griEzsAaAbu/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/14K3h9kN3cJczIbE2yucgNgDV-_zO2rc4/view?usp=drivesdk",
     },
     {
       id: 2,
