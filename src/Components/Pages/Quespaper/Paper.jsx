@@ -126,7 +126,7 @@ export default function Paper() {
                     key={post.id}
                     className="relative rounded-md p-3 hover:bg-gray-100"
                   >
-                    <a href={post.link}>
+                    <a href={post.link} target="_blank" rel='noopener noreferrer'>
                     <h3 className="text-sm font-medium leading-5">
                       {post.title}
                     </h3>

@@ -24,9 +24,10 @@ const Footer = () => {
           </h1>
           <p className="py-4">
             Welcome to LevelUp , where we transform raw information
-            into actionable insights. With cutting-edge technology and a team of
+            into actionable insights.
+             {/* With cutting-edge technology and a team of
             skilled analysts, we specialize in deciphering complex data sets to
-            uncover valuable patterns and provide you the latest materials for your studies.
+            uncover valuable patterns and provide you the latest materials for your studies. */}
           </p>
           <div className="flex md:w-[75%] justify-between my-6 text-blue-200">
             {/* social media icons */}
